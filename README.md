@@ -21,4 +21,4 @@ Url = "https://api.openai.com/v1/completions" #请求地址
 
 ## 界面
 
-![test](test.png)
+![test](download.png)
