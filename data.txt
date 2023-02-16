@@ -1,0 +1,10 @@
+id：生成文本请求的唯一ID
+object：返回的对象类型，这里是“text_completion”
+created：请求生成文本的时间戳
+model：使用的模型
+choices：包含生成的文本和相关信息的数组，可能包含多个元素，这里只有一个，是生成的文本
+text：生成的文本内容
+index：该选择在请求中的索引
+logprobs：选择的概率值
+finish_reason：生成文本的停止原因
+usage：API使用情况的统计信息，包括使用的提示标记数量、生成标记数量和总标记数量
