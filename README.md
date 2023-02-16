@@ -1,4 +1,8 @@
-ApiKey = "YOUR APIKEY" #api密匙
+# 使用golang调用GPT-3的api
+
+## config/Config.toml配置文件
+```
+ApiKey = "YOUR APIKEY" #api密匙 这里更改为你的密匙即可
 
 Url = "https://api.openai.com/v1/completions" #请求地址
 
@@ -12,4 +16,6 @@ Url = "https://api.openai.com/v1/completions" #请求地址
 	Presence_penalty =  0.6           #用于降低生成文本中出现不相关单词或短语的概率
 	Stop = ["HackerXiao:","Gpt-3-AI:"]  #返回信息的开头结尾                       
 	N = 1                             #返回的信息数
-
+```
+## 界面
+![test](test.png)
